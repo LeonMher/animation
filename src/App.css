@@ -102,3 +102,76 @@
   height: 100vh;
   background-color: #002c85;
 }
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+
+
+  .kissFace{
+    position: relative;
+    left: 20%;
+    width: 100px;
+    height: 200px;
+    
+  
+  }
+  
+  .kissFace img{
+    position: relative;
+    bottom:100px;
+    right: 100px;
+    width: 400px;
+    height: 300px;
+  }
+
+
+   
+  .kissFace2 img{
+    
+    width: 400px;
+    height: 300px;
+  }
+
+
+  .kissFace3 img{
+    width: 400px;
+    height: 300px;
+    left:200px;
+  }
+
+
+  .box3 img{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    right: 150px;
+  }
+  .kissFace2{
+    position: relative;
+    bottom: 180px;
+    left: 40%;
+    width: 300px;
+    height: 300px;
+    transform: rotate(70deg);
+    z-index: 999;
+  
+  }
+  
+  .kissFace3{
+    position: relative;
+    top: 100px;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+    transform: rotate(20deg);
+    z-index: 999;
+  
+  }
+  
+
+
+}
